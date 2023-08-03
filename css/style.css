@@ -1,0 +1,230 @@
+/* aqui estão todos os padrões de tela */
+body {
+    background-color: #1e1e1e;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ----------cabeçalho---------- */
+.cabecalho {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.cabecalho-container {
+    background-color: #141414;
+    /* border-bottom: 3px solid #575757; */
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    position: fixed;
+    width: 940px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#logo-gakalu {
+    display: flex;
+    width: 150px;
+}
+
+.cabecalho-container--navegacao {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho-container--navegacao--botao {
+    align-items: center;
+    color: #575757;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    padding: 0px 20px 0px 10px;
+    text-decoration: none;
+    transition: 300ms;
+    font-weight: 500;
+}
+
+.cabecalho-container--navegacao--botao:hover {
+    color: #e8e8e8;
+}
+
+ 
+/* -------primeira seção início------ */
+/* #conexoes{
+    position: absolute;
+    width: 600px;
+    background-color: purple;
+    right: 300px;
+    top: 200px;
+} */
+
+.inicio {
+    /* background-image: url('../assets/conexoes.svg'); */
+}
+
+.inicio-container {
+    /* background-color: aqua; */
+    border-bottom: 3px solid #575757;
+    border-top: 3px solid #575757;
+    display: flex;
+    justify-content: space-between;
+    margin: 150px auto 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 940px;
+}
+
+.inicio-container--paragrafo {
+    color: #e8e8e8;
+    font-size: 50px;
+    font-weight: 700;
+    width: 500px;
+}
+
+
+.inicio-container img {
+    width: 380px;
+}
+
+.inicio-container--produto--preço {
+    align-items: center;
+    color: #e8e8e8;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.inicio-container--produto--preço #preço {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#botaoCompra {
+    background-color: #141414;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    color:#e8e8e8;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    height: auto;
+    padding: 4px 8px;
+    width: auto;
+}
+
+#botaoCompra:hover {
+    cursor: pointer;
+}
+
+
+/* ------segunda seção aplicativo----- */
+.aplicativo {
+    background-color: #141414;
+}
+
+.aplicativo-container {
+    border-bottom: 3px solid #575757;
+    display: block;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    padding-bottom: 30px;
+    width: 940px;
+}
+
+.aplicativo-container--subtitulo {
+    color:#e8e8e8;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    padding: 30px;
+}
+
+.aplicativo-container--conteudo {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#aplicativo--botoes{
+    background-color: #808080;
+    border-radius: 100px;
+    width: 30px;
+}
+
+.aplicativo-container--conteudo--info {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+}
+
+.app-screen-1, .app-screen-2, .app-screen-3 {
+    width: 300px;
+}
+
+.aplicativo-container--conteudo--info--texto {
+    background-color: #bebebe;
+    border-radius: 15px;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 20px;
+    width: 400px;
+}
+
+.aplicativo--botao {
+    background-color: #141414;
+    border: none;
+}
+
+/* -------terceira seção sobre nós------ */
+
+.sobreNos-container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+.sobreNos-container--titulo {
+    color:#e8e8e8;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    padding: 30px;
+}
+
+.sobreNos-container--info {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.sobreNos-container--info--imagem {
+    width: 400px;
+}
+
+.sobreNos-container--info--texto {
+    align-items: center;
+    color: #e8e8e8;
+    display: flex;
+    font-size: 25px;
+    font-weight: 500;
+    justify-content: center;
+    line-height: 28px;
+}
+
+/* ------terceira seção rodapé------ */
+.rodape {
+    padding: 30px;
+    background-color: #141414;
+    color: #e8e8e8;
+}
+
+.rodape-container {
+    display: flex;
+    margin: 0 auto;
+    width: 940px;
+}
+
