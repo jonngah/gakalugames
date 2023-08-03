@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gakalu</title>
+    
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho-container">
+            <img id="logo-gakalu" src="./assets/logo-gakalu.png" alt="logo gakalu">
+            <nav class="cabecalho-container--navegacao">
+                <a href="#inicio" class="cabecalho-container--navegacao--botao">Início</a>
+                <a href="#aplicativo" class="cabecalho-container--navegacao--botao">Aplicativo</a>
+                <a href="#sobreNos" class="cabecalho-container--navegacao--botao">Sobre nós</a>
+                <a href="#parceiros" class="cabecalho-container--navegacao--botao">Parceiros</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="inicio">
+        <div class="inicio-container">
+            <p class="inicio-container--paragrafo">Na Gakalu você encontra o produto que deseja e o menor valor encontrado no mercado. Além de muitos descontos, cupons, prêmios e muitas novidades.</p>
+            <div class="inicio-container--produto">
+                <img src="./assets/mouse-azul.png" alt="mouse-azul">
+                <div class="inicio-container--produto--preço">
+                    <span>Mouse Blue Origin</span>
+                    <span id="preço">R$500</span>
+                    <button id="botaoCompra">Comprar</button> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="aplicativo">
+        <div class="aplicativo-container">
+            <h2 class="aplicativo-container--subtitulo"><a name="aplicativo">Aplicativo</a></h2>
+            <div class="aplicativo-container--conteudo">
+                <button id="aplicativo--botaoEsquerdo" class="aplicativo--botao" type="button">
+                    <img id="aplicativo--botoes" src="./assets/arrow-left.png">
+                </button>
+                <div class="aplicativo-container--conteudo--info">
+                    <img id="tela-celular" src="./assets/celular1.png" alt="tela do celular">
+                    <p class="aplicativo-container--conteudo--info--texto">O aplicativo pensado para facilitar o Usuário.</p>
+                </div>
+                <button id="aplicativo--botaoDireito" class="aplicativo--botao" type="button">
+                    <img id="aplicativo--botoes" src="./assets/arrow-right.png">
+                </button>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="aplicativo">
+        <div class="aplicativo-container">
+            <h2 class="aplicativo-container--subtitulo"><a name="aplicativo">Aplicativo</a></h2>
+            <div class="aplicativo-container--conteudo">
+                <div class="aplicativo-container--conteudo--info">
+                    <img class="app-screen-1" src="./assets/celular1.png" alt="tela do celular">
+                    <img class="app-screen-2" src="./assets/celular2.png" alt="tela do celular">
+                    <img class="app-screen-3" src="./assets/celular3.png" alt="tela do celular">
+                    <p class="aplicativo-container--conteudo--info--texto">O aplicativo pensado para facilitar o Usuário.</p>
+                </div>
+                <button id="aplicativo--botaoDireito" class="aplicativo--botao" type="button">
+                    <img id="aplicativo--botoes" src="./assets/arrow-right.png">
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobreNos">
+        <div class="sobreNos-container">
+            <h2 class="sobreNos-container--titulo"><a name="sobreNos">Sobre nós</a></h2>
+            <div class="sobreNos-container--info">
+                <p class="sobreNos-container--info--texto">A Gakalu Games é um marketplace  voltado para o comércio de jogos eletrônicos, peças de computador, acessórios novos e semi-novos. Nós conectamos pequenas e grandes lojas aos nossos usuários para que consigam de forma ágil o valor mais em conta no mercado. Oferecemos tmbém um programa de fidelidade para os usuários com direito a retirada de brindes como cupons de desconto e cartões pré-pagos para os principais serviços de streaming. Crie sua conta Gakalu!
+                </p>
+                <img class="sobreNos-container--info--imagem" src="./assets/xray.png" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <section class="parceiros">
+
+    </section>
+    
+    <footer class="rodape">
+        <div class="rodape-container">
+            <h3 class="rodape-container--pergunta">Deseja receber nossas novidades?</h3>
+            <div class="rodape-container--caixas">
+                <label for="name">Digite o seu nome:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Digite o seu email:</label>
+                <input type="email" id="email" name="email">
+
+                <input type="submit" value="Enviar"/>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+</html>
